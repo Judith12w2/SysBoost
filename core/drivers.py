@@ -3,10 +3,6 @@ import re
 import platform
 
 def buscar_drivers():
-    """
-    Escanea los drivers instalados del sistema y filtra los relevantes
-    para fabricantes importantes.
-    """
     drivers = []
     sistema = platform.system()
 

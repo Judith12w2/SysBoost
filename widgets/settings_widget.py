@@ -60,7 +60,7 @@ class SettingsWidget(QWidget):
 
         try:
             guardar_configuracion(nueva_config)
-            aplicar_tema(nueva_config["tema"])  # Aplica tema visualmente
+            aplicar_tema(nueva_config["tema"])
             QMessageBox.information(self, "Éxito", "Configuración guardada correctamente.")
         except Exception as e:
             QMessageBox.critical(self, "Error", f"No se pudo guardar: {e}")

@@ -13,18 +13,15 @@ class MonitorWidget(QWidget):
 
         layout = QVBoxLayout(self)
 
-        # Barras de progreso
         self.cpu_bar = self._crear_barra("Uso de CPU")
         self.ram_bar = self._crear_barra("Uso de RAM")
         self.disk_bar = self._crear_barra("Uso de Disco")
         self.gpu_bar = self._crear_barra("Uso de GPU")
 
-        # Etiquetas de temperatura y salud
         self.temp_cpu_label = QLabel("Temperatura CPU: -- °C")
         self.temp_gpu_label = QLabel("Temperatura GPU: -- °C")
         self.salud_disco_label = QLabel("Salud del Disco: --")
 
-        # Agrupación de información
         info_group = QGroupBox("Información detallada")
         info_layout = QVBoxLayout()
         info_layout.addWidget(self.temp_cpu_label)
@@ -32,16 +29,14 @@ class MonitorWidget(QWidget):
         info_layout.addWidget(self.salud_disco_label)
         info_group.setLayout(info_layout)
 
-        # Añadir widgets al layout principal
         for bar in (self.cpu_bar, self.ram_bar, self.disk_bar, self.gpu_bar):
             layout.addWidget(bar["label"])
             layout.addWidget(bar["bar"])
         layout.addWidget(info_group)
 
-        # Timer para actualización
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.actualizar_monitor)
-        self.timer.start(3000)  # cada 3 segundos
+        self.timer.start(3000)
 
         self.actualizar_monitor()
 

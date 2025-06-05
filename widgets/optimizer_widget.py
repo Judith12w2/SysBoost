@@ -15,12 +15,10 @@ class OptimizerWidget(QWidget):
         title.setStyleSheet("margin-bottom: 15px;")
         layout.addWidget(title)
 
-        # Botón de limpieza de temporales
         btn_temp = QPushButton("🗑️ Limpiar archivos temporales")
         btn_temp.clicked.connect(self.ejecutar_limpieza_temporales)
         layout.addWidget(btn_temp)
 
-        # Botón para limpiar la carpeta de descargas
         btn_descargas = QPushButton("📁 Limpiar carpeta Descargas")
         btn_descargas.clicked.connect(self.pedir_confirmacion_descargas)
         layout.addWidget(btn_descargas)

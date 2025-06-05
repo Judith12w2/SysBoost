@@ -19,19 +19,16 @@ class SysBoost(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("SysBoost - Optimiza tu sistema")
-        self.setWindowIcon(QIcon("data/icono.ico"))
+        self.setWindowIcon(QIcon("data/logo.ico"))
         self.setMinimumSize(1024, 600)
 
-        # Cargar preferencias
         self.config = self.cargar_configuracion()
         aplicar_tema(self.config.get("tema", "oscuro"))
 
-        # Layout principal
         main_widget = QWidget()
         self.setCentralWidget(main_widget)
         layout = QHBoxLayout(main_widget)
 
-        # Menú lateral
         self.menu = QListWidget()
         self.menu.setFixedWidth(200)
         self.secciones = [
@@ -42,14 +39,13 @@ class SysBoost(QMainWindow):
             QListWidgetItem(texto, self.menu)
         self.menu.currentRowChanged.connect(self.cambiar_pagina)
 
-        # Páginas y diccionarios de widgets
         self.paginas = QStackedWidget()
         self.widget_pages = {}
-        self.widgets = {}  # <--- INICIALIZADO AQUÍ
+        self.widgets = {}
 
         for texto in self.secciones:
             if texto in ["Registros", "Premium"]:
-                widget = QWidget()  # Placeholder temporal
+                widget = QWidget()
                 self.widgets[texto] = None
             elif texto == "Configuración":
                 widget = SettingsWidget()
@@ -79,7 +75,6 @@ class SysBoost(QMainWindow):
                 widget_real = PaginaPremium()
 
             self.widgets[seccion] = widget_real
-            # Reemplazar el placeholder en QStackedWidget
             self.paginas.removeWidget(self.paginas.widget(self.widget_pages[seccion]))
             self.widget_pages[seccion] = self.paginas.insertWidget(index, widget_real)
 
@@ -96,5 +91,6 @@ class SysBoost(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     ventana = SysBoost()
+    app.setWindowIcon(QIcon("data/logo.ico"))
     ventana.show()
     sys.exit(app.exec())

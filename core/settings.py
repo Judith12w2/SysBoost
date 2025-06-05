@@ -13,10 +13,6 @@ DEFAULT_CONFIG = {
 }
 
 def cargar_configuracion():
-    """
-    Carga la configuración desde el archivo JSON.
-    Si no existe o está corrupto, se crea con valores por defecto.
-    """
     if CONFIG_PATH.exists():
         try:
             with open(CONFIG_PATH, "r", encoding="utf-8") as f:
@@ -27,7 +23,6 @@ def cargar_configuracion():
     return DEFAULT_CONFIG.copy()
 
 def guardar_configuracion(config: dict):
-    """Guarda el diccionario de configuración en el archivo JSON."""
     CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
     try:
         with open(CONFIG_PATH, "w", encoding="utf-8") as f:
@@ -36,7 +31,6 @@ def guardar_configuracion(config: dict):
         print(f"[ERROR] No se pudo guardar la configuración: {e}")
 
 def actualizar_configuracion(clave: str, valor):
-    """Actualiza una clave de configuración y guarda el archivo."""
     config = cargar_configuracion()
     config[clave] = valor
     guardar_configuracion(config)
