@@ -1,0 +1,48 @@
+04/06/2025 12:21:28 - El historial de accesos en el sub�rbol \??\C:\ProgramData\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\S-1-5-21-1033809201-1851771049-4104343220-1001\SystemAppData\Helium\Cache\417aa7dc1dd76dcd_COM15.dat se borr� mediante la actualizaci�n de 1 claves y la creaci�n de 1 p�ginas modificadas.
+04/06/2025 12:21:02 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID Unavailable (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 12:20:59 - El historial de accesos en el sub�rbol \??\C:\ProgramData\Packages\Microsoft.WindowsNotepad_8wekyb3d8bbwe\S-1-5-21-1033809201-1851771049-4104343220-1001\SystemAppData\Helium\Cache\a718129801b37677_COM15.dat se borr� mediante la actualizaci�n de 1 claves y la creaci�n de 1 p�ginas modificadas.
+04/06/2025 12:20:52 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID Unavailable (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 12:15:58 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID Unavailable (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 12:14:12 - El tipo de inicio del servicio Background Intelligent Transfer Service se cambi� de auto start a demand start.
+04/06/2025 12:11:56 - El tipo de inicio del servicio Background Intelligent Transfer Service se cambi� de demand start a auto start.
+04/06/2025 12:11:02 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID MSTeams_25094.310.3616.953_x64__8wekyb3d8bbwe (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 12:10:54 - El historial de accesos en el sub�rbol \??\C:\Users\Judith12w2\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings\settings.dat se borr� mediante la actualizaci�n de 2 claves y la creaci�n de 1 p�ginas modificadas.
+04/06/2025 12:10:54 - El historial de accesos en el sub�rbol \??\C:\ProgramData\Packages\MSTeams_8wekyb3d8bbwe\S-1-5-21-1033809201-1851771049-4104343220-1001\SystemAppData\Helium\Cache\b487c450139abc53_COM15.dat se borr� mediante la actualizaci�n de 1 claves y la creaci�n de 1 p�ginas modificadas.
+04/06/2025 12:10:54 - El historial de accesos en el sub�rbol \??\C:\Users\Judith12w2\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\SystemAppData\Helium\User.dat se borr� mediante la actualizaci�n de 12 claves y la creaci�n de 3 p�ginas modificadas.
+04/06/2025 12:00:00 - El tiempo l�mite del sistema es de 9437 segundos.
+04/06/2025 11:32:04 - El tipo de inicio del servicio Background Intelligent Transfer Service se cambi� de auto start a demand start.
+04/06/2025 11:29:44 - El tipo de inicio del servicio Background Intelligent Transfer Service se cambi� de demand start a auto start.
+04/06/2025 11:28:17 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID Unavailable (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 10:52:47 - El tipo de inicio del servicio Background Intelligent Transfer Service se cambi� de auto start a demand start.
+04/06/2025 10:50:43 - El tipo de inicio del servicio Background Intelligent Transfer Service se cambi� de demand start a auto start.
+04/06/2025 9:57:16 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID Unavailable (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 9:43:52 - La configuraci�n de permisos application-specific no concede el permiso Activation Local para la aplicaci�n de servidor COM con CLSID
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+y APPID
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+al usuario Judith\Judith12w2 con SID (S-1-5-21-1033809201-1851771049-4104343220-1001) en la direcci�n LocalHost (Using LRPC) que se ejecuta en el contenedor de aplicaciones con SID Unavailable (Unavailable). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes.
+04/06/2025 9:39:54 - Windows Update comenz� a descargar una actualizaci�n.
