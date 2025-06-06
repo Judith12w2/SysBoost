@@ -18,12 +18,27 @@
 
 ## 📷 Capturas
 
-> ![image](https://github.com/user-attachments/assets/72ebb5e7-058a-49da-bd47-0c51894ab880)
+> ![image](https://github.com/user-attachments/assets/9da1f816-645f-461d-9a3f-744bbca25491)
+
 
 
 ---
 
-## 🚀 Instalación
+## 📦 Instalación
+
+Para instalar SysBoost de forma sencilla y profesional, sigue estos pasos:
+
+1. Dirígete a la sección [Releases](https://github.com/Judith12w2/SysBoost/releases) del repositorio.
+2. Descarga el archivo `SysBoost_Installer.exe`.
+3. Ejecuta el instalador y sigue las instrucciones:
+   - El programa se instalará en `C:\Program Files\SysBoost`.
+   - Se añadirá un acceso directo en el escritorio.
+   - Se incluirá una opción de desinstalación desde el Panel de control.
+
+> 💡 **No necesitas instalar Python ni ninguna dependencia adicional.** El instalador incluye todo lo necesario para que SysBoost funcione directamente.
+
+Una vez instalado, simplemente haz doble clic en el icono de **SysBoost** desde el escritorio para comenzar a optimizar tu sistema.
+
 
 ### Requisitos
 
