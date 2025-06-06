@@ -4,7 +4,7 @@ from PySide6.QtWidgets import (
     QListWidget, QStackedWidget, QListWidgetItem, QMessageBox
 )
 from PySide6.QtGui import QIcon
-from themes import aplicar_tema
+from core.themes import aplicar_tema
 from widgets.home import HomeWidget
 from widgets.monitor_widget import MonitorWidget
 from widgets.optimizer_widget import OptimizerWidget

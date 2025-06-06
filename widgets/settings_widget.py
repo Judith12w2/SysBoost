@@ -6,7 +6,7 @@ from PySide6.QtWidgets import (
 )
 import json
 from core.settings import cargar_configuracion, guardar_configuracion
-from themes import aplicar_tema
+from core.themes import aplicar_tema
 
 
 class SettingsWidget(QWidget):
