@@ -18,7 +18,8 @@
 
 ## 📷 Capturas
 
-> *(Añade aquí algunas imágenes del programa si puedes)*
+> ![image](https://github.com/user-attachments/assets/72ebb5e7-058a-49da-bd47-0c51894ab880)
+
 
 ---
 
